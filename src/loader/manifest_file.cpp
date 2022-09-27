@@ -7,6 +7,8 @@
 // Initial Authors: Mark Young <marky@lunarg.com>, Dave Houlton <daveh@lunarg.com>
 //
 
+#pragma comment(lib, "advapi32.lib")
+
 #if defined(_MSC_VER) && !defined(_CRT_SECURE_NO_WARNINGS)
 #define _CRT_SECURE_NO_WARNINGS
 #endif  // defined(_MSC_VER) && !defined(_CRT_SECURE_NO_WARNINGS)
